@@ -3,16 +3,16 @@
 const yesBtn = document.getElementById('yes-btn');
 const noBtn = document.getElementById('no-btn');
 const beggingPhrases = [
-    'Please?',
+    'Pleaseeeeeee',
     'Pretty please?',
     'Please just say yes!',
     'I promise I\'ll be a good boy!',
     'I won\'t bully you na promise!',
-    'Just one little yes?',
+    'Press mo lang yung green button that says yes hehe',
     'I\'ll do anything!',
-    'Have a heart!',
-    'Don\'t be like that!',
-    'Give me a chance!'
+    'Ihhh dali naaaa jk pero pleaseeee',
+    'I won\'t laugh at you when you make face promise',
+    'Imma cry sige kaaaa'
 ];
 const pleadingImages = [
     './sad/bobsad.webp',
