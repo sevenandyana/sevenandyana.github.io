@@ -26,7 +26,7 @@ const pleadingImages = [
 let usedImages = [];
 
 yesBtn.addEventListener('click', () => {
-    window.location.href = 'bouquet.html';
+    window.location.href = 'yay.html';
 });
 
 noBtn.addEventListener('click', () => {
