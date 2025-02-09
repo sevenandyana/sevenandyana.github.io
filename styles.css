@@ -1,6 +1,21 @@
+@font-face {
+    font-family: 'Poppins Light';
+    src: url('./fonts/PoppinsLight.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins Light', regular;
+    background-color: #f2a4a6;
+    color: #9e4f58;
     text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins Light', regular;
+    text-align: center;
+    font-style: italic;
 }
 
 .container {
@@ -35,7 +50,7 @@ button {
 
 .begging-text {
     font-size: 18px;
-    font-style: italic;
+    font-style: 'Poppins', sans-serif;
     color: #666;
 }
 
@@ -69,4 +84,20 @@ button {
 
 img[src=""] {
     display: none;
+}
+
+.panel {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f3e2c8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.panel img {
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
