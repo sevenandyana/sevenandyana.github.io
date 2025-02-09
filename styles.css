@@ -99,5 +99,42 @@ img[src=""] {
 .panel img {
     margin: 20px;
     border-radius: 10px;
+    
+}
+
+.gif-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-gif, .right-gif {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.text-container {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pleading-container {
+    margin-bottom: 20px;
+    display: none;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f3e2c8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pleading-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
